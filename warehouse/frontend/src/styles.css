@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.app-container {
+  display: flex; 
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1; 
+  padding: 20px;
+  background-color: #ffffff;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .summary-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .dashboard h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .time-range-selector {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .sidebar {
+    width: 200px; 
+    font-size: 0.9rem;
+  }
+
+  .main-content {
+    margin-left: 200px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .summary-cards {
+    gap: 10px;
+  }
+
+  .card h3 {
+    font-size: 1.5rem;
+  }
+
+  .dashboard h1 {
+    font-size: 1.5rem;
+  }
+
+  .sidebar h2 {
+    font-size: 1.2rem;
+  }
+
+  .time-range-selector select {
+    width: 100%; 
+  }
+}

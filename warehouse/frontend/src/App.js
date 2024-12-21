@@ -6,6 +6,8 @@ import Tasks from './components/Tasks/Tasks';
 import Inventory from './components/Inventory/Inventory';
 import PathPlanning from './components/PathPlanning/PathPlanning';
 import Detection from './components/Detection/Detection';
+import TaskManagement from './components/TaskManagement/TaskManagement';
+
 import './styles.css';
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/tasks" element={<TaskManagement />} />
           <Route path="/tasks" element={<Tasks />} />
           <Route path="/inventory" element={<Inventory />} />
           <Route path="/path-planning" element={<PathPlanning />} />

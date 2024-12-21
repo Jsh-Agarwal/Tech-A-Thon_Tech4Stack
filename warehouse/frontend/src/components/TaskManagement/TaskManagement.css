@@ -1,0 +1,29 @@
+.task-management {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }  
+
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .filters input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filters select {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }  
+  

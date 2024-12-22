@@ -1,0 +1,17 @@
+.inventory-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    margin: 20px 0;
+  }
+  
+  .grid-slot {
+    width: 30px;
+    height: 30px;
+    background-color: #c8e6c9;
+    border: 1px solid #a5d6a7;
+  }
+  
+  .grid-slot.occupied {
+    background-color: #388e3c;
+  }  

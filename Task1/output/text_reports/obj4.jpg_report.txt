@@ -1,0 +1,24 @@
+Analysis Report for obj4.jpg
+==================================================
+
+Processing Time: 0.00 seconds
+Number of Boxes Detected: 4
+
+Detailed Box Information:
+------------------------------
+
+Box #1:
+  Center Position: (172.00, 459.50)
+  Dimensions: 2x21 pixels
+
+Box #2:
+  Center Position: (138.00, 515.00)
+  Dimensions: 66x142 pixels
+
+Box #3:
+  Center Position: (357.00, 414.50)
+  Dimensions: 198x17 pixels
+
+Box #4:
+  Center Position: (205.00, 342.50)
+  Dimensions: 48x135 pixels

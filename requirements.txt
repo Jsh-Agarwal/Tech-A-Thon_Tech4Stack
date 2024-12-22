@@ -1,0 +1,9 @@
+opencv-python
+numpy
+matplotlib
+cvlib
+tensorflow>=2.0.0
+ipykernel 
+p2j 
+pandas
+opencv-contrib-python

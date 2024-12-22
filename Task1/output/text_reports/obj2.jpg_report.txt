@@ -1,0 +1,64 @@
+Analysis Report for obj2.jpg
+==================================================
+
+Processing Time: 0.00 seconds
+Number of Boxes Detected: 14
+
+Detailed Box Information:
+------------------------------
+
+Box #1:
+  Center Position: (345.50, 587.00)
+  Dimensions: 113x14 pixels
+
+Box #2:
+  Center Position: (476.00, 577.00)
+  Dimensions: 158x30 pixels
+
+Box #3:
+  Center Position: (112.50, 509.00)
+  Dimensions: 109x24 pixels
+
+Box #4:
+  Center Position: (453.50, 533.00)
+  Dimensions: 15x112 pixels
+
+Box #5:
+  Center Position: (199.50, 530.00)
+  Dimensions: 53x116 pixels
+
+Box #6:
+  Center Position: (331.50, 475.00)
+  Dimensions: 61x8 pixels
+
+Box #7:
+  Center Position: (244.00, 452.50)
+  Dimensions: 82x41 pixels
+
+Box #8:
+  Center Position: (162.00, 433.00)
+  Dimensions: 10x20 pixels
+
+Box #9:
+  Center Position: (558.50, 347.00)
+  Dimensions: 15x32 pixels
+
+Box #10:
+  Center Position: (229.00, 314.50)
+  Dimensions: 4x5 pixels
+
+Box #11:
+  Center Position: (247.00, 238.00)
+  Dimensions: 4x6 pixels
+
+Box #12:
+  Center Position: (335.00, 161.00)
+  Dimensions: 2x10 pixels
+
+Box #13:
+  Center Position: (312.50, 146.50)
+  Dimensions: 19x61 pixels
+
+Box #14:
+  Center Position: (343.00, 115.50)
+  Dimensions: 34x15 pixels

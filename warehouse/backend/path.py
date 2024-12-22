@@ -6,7 +6,7 @@ import io
 import matplotlib.pyplot as plt
 
 # URL of the Flask backend
-API_URL = "http://127.0.0.1:5002/solve-maze"
+API_URL = "http://127.0.0.1:5000/solve-maze"
 
 # Title
 st.title("Maze Solver")

@@ -3,6 +3,15 @@ import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
 const Sidebar = () => {
+  // Define navigation functions
+  const navigateToPathPlanning = () => {
+    window.location.href = "http://localhost:8502"; // Replace with your actual URL
+  };
+
+  const navigateToDetection = () => {
+    window.location.href = "http://localhost:8501"; // Replace with your actual URL
+  };
+
   return (
     <div className="sidebar">
       <h2>Warehouse Management</h2>
@@ -11,16 +20,20 @@ const Sidebar = () => {
           <Link to="/">Dashboard</Link>
         </li>
         <li>
-          <Link to="/tasks">Task Management</Link>
+          <Link to="/tasks/manage">Task Management</Link>
         </li>
         <li>
           <Link to="/inventory">Inventory</Link>
         </li>
         <li>
-          <Link to="/path-planning">Path Planning</Link>
+          <button onClick={navigateToPathPlanning} className="sidebar-button">
+            Path Planning (8502)
+          </button>
         </li>
         <li>
-          <Link to="/detection">Box Detection</Link>
+          <button onClick={navigateToDetection} className="sidebar-button">
+            Box Detection (8501)
+          </button>
         </li>
       </ul>
     </div>

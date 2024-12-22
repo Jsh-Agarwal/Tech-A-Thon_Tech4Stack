@@ -20,8 +20,9 @@ function App() {
           <Route path="/tasks" element={<Tasks />} /> 
           <Route path="/tasks/manage" element={<TaskManagement />} />  
           <Route path="/inventory" element={<InventoryManagement />} />
-          <Route path="/path-planning" element={<PathPlanning />} />
-          <Route path="/detection" element={<Detection />} />
+<Route path="/path-planning" element={<PathPlanning />} />
+<Route path="/detection" element={<Detection />} />
+
         </Routes>
       </main>
     </div>
